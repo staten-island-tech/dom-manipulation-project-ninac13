@@ -2,7 +2,8 @@ const DOMSelectors = {
     header: document.querySelector("h1"),
     item: document.querySelector("li"),
     cardHeader: document.querySelector(".card-header"),
-    button: document.querySelector(".btn")
+    button: document.querySelector(".btn"),
+    form: document.querySelector(".form"),
 };
 let student = {
     name: "Ryan",
@@ -10,7 +11,7 @@ let student = {
     girlfriend: true,
 };
 
-console.log(DOMSelectors.header);
+
 DOMSelectors.button.addEventListener("click", function(event){
     console.log(event.target.parentElement);
     event.target.parentElement.style.backgroundColor = "red";

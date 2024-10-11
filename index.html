@@ -12,12 +12,12 @@
 <body>
     <h1>Header</h1>
     <form action = "" class = "form">
-        <input type = "image-text"/>
-        <button type = "submit">Submit</button>
-        <input type = "card-header"/>
-        <button type = "submit">Submit</button>
-        <input type = "card-price"/>
-        <button type = "submit">Submit</button>
+        <input type = "text" placeholder="Enter image URL"class="image-input"/>
+        <button type = "submit">Submit Image</button><br/>
+        <input type = "text" placeholder="Enter card header" class="card-header-input"/>
+        <button type = "submit">Submit Header</button><br/>
+        <input type = "text"placeholder="Enter card price" class="card-price-input"/>
+        <button type = "submit">Submit Price</button>
     </form>
     <div class = "container">
         <div class="card">
@@ -26,10 +26,12 @@
             <h2 class = "card-header">Siamese Cat</h2>
             <!-- Change below so that the image can be something the user inserts in the card-header
         -->
+            
             <img class = "card-img" src = "img/siamesecat.jpg" alt = ""/>
                     <!-- Change below so that the card-price can be something the user inserts in the card-price
         -->
             <h3 class = "card-price">$7.99</h3>
+            <button type = "button" class="removebtn">Remove</button>
         </div>
     </div>
     <script src = "index.js"></script>

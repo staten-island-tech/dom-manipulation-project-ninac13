@@ -1,8 +1,8 @@
 //NOTES:
-//change it so that when image in inputted the image fits the card
+//make it so that the card does not show up until user inputs values
 //be able to add multiple cards
-//when image, card-header, and card-price are all submitted, then it clears (maybe have 1 submit button)
-
+//when image, card-header, and card-price are all submitted, then it clears
+//change background + style
 const DOMSelectors = {
     header: document.querySelector("h1"),
     item: document.querySelector("li"),
@@ -23,7 +23,7 @@ DOMSelectors.form.addEventListener("submit", function (event){
     const cardHeaderText = DOMSelectors.cardHeaderInput.value;
     const cardPriceText = DOMSelectors.cardPriceInput.value;
 
-    //individual values are logged
+    //individual values are logged, $ sign is used to define that variable's data type as a string
     console.log(`Image URL: ${imageUrl}, Card Header: ${cardHeaderText}, Card Price: ${cardPriceText}`);
     
     //updateCard function is called to update the card

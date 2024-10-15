@@ -1,3 +1,8 @@
+//NOTES:
+//change it so that when image in inputted the image fits the card
+//be able to add multiple cards
+//when image, card-header, and card-price are all submitted, then it clears (maybe have 1 submit button)
+
 const DOMSelectors = {
     header: document.querySelector("h1"),
     item: document.querySelector("li"),

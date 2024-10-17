@@ -56,7 +56,7 @@ h3{
     border: 2px solid rgb(203, 226, 173);
     border-radius: 80px;
     border-width: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

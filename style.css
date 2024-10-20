@@ -29,7 +29,7 @@ h2{
 }
 
 h3{
-    font-size: 25px;
+    font-size: 12px;
     font-family: "Comfortaa", sans-serif;
     color: rgb(83, 53, 39);
 }
@@ -80,9 +80,22 @@ h3{
 .image-input, 
 .card-header-input, 
 .card-desc-input{
+    min-width: 100px;
+    width: 22%;
+    font-family: "Concert One", sans-serif;
     margin-bottom:15px;
     font-size: 20px;
-    border-radius: 15px;
+    padding: 10px;
+    color: rgb(83, 53, 39);
+    border-radius: 50px;
+    border: 3px solid rgb(83, 53, 39);
+    background-color: rgb(227, 196, 181);
+}
+
+.image-input::placeholder,
+.card-header-input::placeholder,
+.card-desc-input::placeholder{
+    color: rgb(83, 53, 39);
 }
 
 .form{
@@ -90,21 +103,23 @@ h3{
 }
 
 button[type="submit"] {
+    font-family: "Comfortaa", sans-serif;
     font-size: 15px; /* Change this to whatever size you prefer */
     padding: 10px;
     border-radius: 50px;
-    border: 1px solid rgb(83, 53, 39);
-    background-color: rgb(187, 139, 116);
+    border: 3px solid rgb(83, 53, 39);
+    background-color: rgb(227, 196, 181);
     cursor: pointer;
+    font-weight: bold;
 }
 
 .removebtn{
-    font-size: 15px;
-    color:rgb(83, 53, 39);
-    font-family: "Signika Negative", sans-serif;
-    background-color: rgb(187, 139, 116);
-    border-radius: 5px;
-    border-color:rgb(83, 95, 62);
-    border-width: 3px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px; /* Change this to whatever size you prefer */
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid rgb(83, 53, 39);
+    background-color: rgb(227, 196, 181);
     cursor: pointer;
+    font-weight: bold;
 }
